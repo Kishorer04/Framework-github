@@ -1,0 +1,8 @@
+com\galaxe\TestCase\TC002_Get_Single_Employee.class
+com\galaxe\TestCase\TC004_PUT_EmployeeRecord.class
+com\galaxe\TestCase\TC003_POST_Employee_Record.class
+com\galaxe\utilities\Listeners.class
+com\galaxe\base\TestBase.class
+com\galaxe\utilities\RestUtils.class
+com\galaxe\TestCase\TC001_GET_AllEmployees.class
+com\galaxe\TestCase\TC005_DELETE_Employee_Record.class

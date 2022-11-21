@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="24" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-21T11:04:32 IST" name="EmployeeRestAPI" finished-at="2022-11-21T11:06:13 IST" duration-ms="100211">
+    <groups>
+    </groups>
+    <test started-at="2022-11-21T11:04:32 IST" name="EmployeeRestAPITest" finished-at="2022-11-21T11:06:13 IST" duration-ms="100211">
+      <class name="com.galaxe.TestCase.TC005_DELETE_Employee_Record">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.galaxe.TestCase.TC005_DELETE_Employee_Record@550dbc7a]" started-at="2022-11-21T11:05:59 IST" name="setup" finished-at="2022-11-21T11:05:59 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="deleteEmployee()[pri:0, instance:com.galaxe.TestCase.TC005_DELETE_Employee_Record@550dbc7a]" started-at="2022-11-21T11:05:59 IST" name="deleteEmployee" finished-at="2022-11-21T11:06:04 IST" duration-ms="4612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+        <test-method signature="checkServerType()[pri:0, instance:com.galaxe.TestCase.TC005_DELETE_Employee_Record@550dbc7a]" started-at="2022-11-21T11:06:04 IST" name="checkServerType" finished-at="2022-11-21T11:06:07 IST" duration-ms="3006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.galaxe.TestCase.TC005_DELETE_Employee_Record@550dbc7a]" started-at="2022-11-21T11:06:07 IST" name="checkStatusCode" finished-at="2022-11-21T11:06:10 IST" duration-ms="3005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.galaxe.TestCase.TC005_DELETE_Employee_Record@550dbc7a]" started-at="2022-11-21T11:06:10 IST" name="checkStatusLine" finished-at="2022-11-21T11:06:13 IST" duration-ms="3013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:com.galaxe.TestCase.TC005_DELETE_Employee_Record@550dbc7a]" started-at="2022-11-21T11:06:13 IST" name="finish" finished-at="2022-11-21T11:06:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.galaxe.TestCase.TC005_DELETE_Employee_Record -->
+      <class name="com.galaxe.TestCase.TC004_PUT_EmployeeRecord">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.galaxe.TestCase.TC004_PUT_EmployeeRecord@4dbb42b7]" started-at="2022-11-21T11:05:39 IST" name="setup" finished-at="2022-11-21T11:05:39 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="updateEmployee()[pri:0, instance:com.galaxe.TestCase.TC004_PUT_EmployeeRecord@4dbb42b7]" started-at="2022-11-21T11:05:39 IST" name="updateEmployee" finished-at="2022-11-21T11:05:44 IST" duration-ms="5457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployee -->
+        <test-method signature="checkContentType()[pri:0, instance:com.galaxe.TestCase.TC004_PUT_EmployeeRecord@4dbb42b7]" started-at="2022-11-21T11:05:44 IST" name="checkContentType" finished-at="2022-11-21T11:05:47 IST" duration-ms="3015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.galaxe.TestCase.TC004_PUT_EmployeeRecord@4dbb42b7]" started-at="2022-11-21T11:05:47 IST" name="checkResponseBody" finished-at="2022-11-21T11:05:50 IST" duration-ms="3008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkServerType()[pri:0, instance:com.galaxe.TestCase.TC004_PUT_EmployeeRecord@4dbb42b7]" started-at="2022-11-21T11:05:50 IST" name="checkServerType" finished-at="2022-11-21T11:05:53 IST" duration-ms="3007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.galaxe.TestCase.TC004_PUT_EmployeeRecord@4dbb42b7]" started-at="2022-11-21T11:05:53 IST" name="checkStatusCode" finished-at="2022-11-21T11:05:56 IST" duration-ms="3011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.galaxe.TestCase.TC004_PUT_EmployeeRecord@4dbb42b7]" started-at="2022-11-21T11:05:56 IST" name="checkStatusLine" finished-at="2022-11-21T11:05:59 IST" duration-ms="3008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:com.galaxe.TestCase.TC004_PUT_EmployeeRecord@4dbb42b7]" started-at="2022-11-21T11:05:59 IST" name="finish" finished-at="2022-11-21T11:05:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.galaxe.TestCase.TC004_PUT_EmployeeRecord -->
+      <class name="com.galaxe.TestCase.TC002_Get_Single_Employee">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.galaxe.TestCase.TC002_Get_Single_Employee@316bcf94]" started-at="2022-11-21T11:05:02 IST" name="setup" finished-at="2022-11-21T11:05:03 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:com.galaxe.TestCase.TC002_Get_Single_Employee@316bcf94]" started-at="2022-11-21T11:05:03 IST" name="getAllEmployees" finished-at="2022-11-21T11:05:06 IST" duration-ms="3412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method signature="checkContentType()[pri:0, instance:com.galaxe.TestCase.TC002_Get_Single_Employee@316bcf94]" started-at="2022-11-21T11:05:06 IST" name="checkContentType" finished-at="2022-11-21T11:05:09 IST" duration-ms="3018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.galaxe.TestCase.TC002_Get_Single_Employee@316bcf94]" started-at="2022-11-21T11:05:09 IST" name="checkResponseBody" finished-at="2022-11-21T11:05:12 IST" duration-ms="3004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.galaxe.TestCase.TC002_Get_Single_Employee@316bcf94]" started-at="2022-11-21T11:05:12 IST" name="checkResponseTime" finished-at="2022-11-21T11:05:15 IST" duration-ms="3005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkServerType()[pri:0, instance:com.galaxe.TestCase.TC002_Get_Single_Employee@316bcf94]" started-at="2022-11-21T11:05:15 IST" name="checkServerType" finished-at="2022-11-21T11:05:18 IST" duration-ms="3011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.galaxe.TestCase.TC002_Get_Single_Employee@316bcf94]" started-at="2022-11-21T11:05:18 IST" name="checkStatusCode" finished-at="2022-11-21T11:05:18 IST" duration-ms="4" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [600] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [600] but found [200]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1240)
+at org.testng.Assert.assertEquals(Assert.java:1274)
+at com.galaxe.TestCase.TC002_Get_Single_Employee.checkStatusCode(TC002_Get_Single_Employee.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.galaxe.TestCase.TC002_Get_Single_Employee@316bcf94]" started-at="2022-11-21T11:05:18 IST" name="checkStatusLine" finished-at="2022-11-21T11:05:21 IST" duration-ms="3012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:com.galaxe.TestCase.TC002_Get_Single_Employee@316bcf94]" started-at="2022-11-21T11:05:21 IST" name="finish" finished-at="2022-11-21T11:05:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.galaxe.TestCase.TC002_Get_Single_Employee -->
+      <class name="com.galaxe.TestCase.TC003_POST_Employee_Record">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.galaxe.TestCase.TC003_POST_Employee_Record@2c1b194a]" started-at="2022-11-21T11:05:21 IST" name="setup" finished-at="2022-11-21T11:05:21 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="createEmployee()[pri:0, instance:com.galaxe.TestCase.TC003_POST_Employee_Record@2c1b194a]" started-at="2022-11-21T11:05:21 IST" name="createEmployee" finished-at="2022-11-21T11:05:26 IST" duration-ms="5472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployee -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.galaxe.TestCase.TC003_POST_Employee_Record@2c1b194a]" started-at="2022-11-21T11:05:26 IST" name="checkResponseBody" finished-at="2022-11-21T11:05:29 IST" duration-ms="3017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkServerType()[pri:0, instance:com.galaxe.TestCase.TC003_POST_Employee_Record@2c1b194a]" started-at="2022-11-21T11:05:29 IST" name="checkServerType" finished-at="2022-11-21T11:05:32 IST" duration-ms="3010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.galaxe.TestCase.TC003_POST_Employee_Record@2c1b194a]" started-at="2022-11-21T11:05:32 IST" name="checkStatusCode" finished-at="2022-11-21T11:05:35 IST" duration-ms="3006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.galaxe.TestCase.TC003_POST_Employee_Record@2c1b194a]" started-at="2022-11-21T11:05:35 IST" name="checkStatusLine" finished-at="2022-11-21T11:05:39 IST" duration-ms="3009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:com.galaxe.TestCase.TC003_POST_Employee_Record@2c1b194a]" started-at="2022-11-21T11:05:39 IST" name="finish" finished-at="2022-11-21T11:05:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.galaxe.TestCase.TC003_POST_Employee_Record -->
+      <class name="com.galaxe.TestCase.TC001_GET_AllEmployees">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.galaxe.TestCase.TC001_GET_AllEmployees@2ea41516]" started-at="2022-11-21T11:04:33 IST" name="setup" finished-at="2022-11-21T11:04:33 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:com.galaxe.TestCase.TC001_GET_AllEmployees@2ea41516]" started-at="2022-11-21T11:04:33 IST" name="getAllEmployees" finished-at="2022-11-21T11:04:38 IST" duration-ms="5471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method signature="checkContentEncoding()[pri:0, instance:com.galaxe.TestCase.TC001_GET_AllEmployees@2ea41516]" started-at="2022-11-21T11:04:38 IST" name="checkContentEncoding" finished-at="2022-11-21T11:04:41 IST" duration-ms="3027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentEncoding -->
+        <test-method signature="checkContentType()[pri:0, instance:com.galaxe.TestCase.TC001_GET_AllEmployees@2ea41516]" started-at="2022-11-21T11:04:41 IST" name="checkContentType" finished-at="2022-11-21T11:04:44 IST" duration-ms="3007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkCookies()[pri:0, instance:com.galaxe.TestCase.TC001_GET_AllEmployees@2ea41516]" started-at="2022-11-21T11:04:44 IST" name="checkCookies" finished-at="2022-11-21T11:04:47 IST" duration-ms="3015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCookies -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.galaxe.TestCase.TC001_GET_AllEmployees@2ea41516]" started-at="2022-11-21T11:04:47 IST" name="checkResponseBody" finished-at="2022-11-21T11:04:50 IST" duration-ms="3036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.galaxe.TestCase.TC001_GET_AllEmployees@2ea41516]" started-at="2022-11-21T11:04:50 IST" name="checkResponseTime" finished-at="2022-11-21T11:04:53 IST" duration-ms="3006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkServerType()[pri:0, instance:com.galaxe.TestCase.TC001_GET_AllEmployees@2ea41516]" started-at="2022-11-21T11:04:53 IST" name="checkServerType" finished-at="2022-11-21T11:04:56 IST" duration-ms="3007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.galaxe.TestCase.TC001_GET_AllEmployees@2ea41516]" started-at="2022-11-21T11:04:56 IST" name="checkStatusCode" finished-at="2022-11-21T11:04:56 IST" duration-ms="11" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [300] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [300] but found [200]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1240)
+at org.testng.Assert.assertEquals(Assert.java:1274)
+at com.galaxe.TestCase.TC001_GET_AllEmployees.checkStatusCode(TC001_GET_AllEmployees.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.galaxe.TestCase.TC001_GET_AllEmployees@2ea41516]" started-at="2022-11-21T11:04:56 IST" name="checkStatusLine" finished-at="2022-11-21T11:04:59 IST" duration-ms="3007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:com.galaxe.TestCase.TC001_GET_AllEmployees@2ea41516]" started-at="2022-11-21T11:04:59 IST" name="finish" finished-at="2022-11-21T11:05:02 IST" duration-ms="3013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.galaxe.TestCase.TC001_GET_AllEmployees -->
+    </test> <!-- EmployeeRestAPITest -->
+  </suite> <!-- EmployeeRestAPI -->
+</testng-results>
